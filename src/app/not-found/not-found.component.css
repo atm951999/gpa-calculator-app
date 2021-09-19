@@ -1,11 +1,23 @@
+/*
+============================================
+; Title: Assignment 7.2
+; Author: Professor Krasso
+; Date: 19September 2021
+; Modified By: Angela Martin
+; Description: This program demonstrates the
+; use of Angular.
+===========================================
+*/
+
+/* Import font from Google */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lato&display=swap');
 
+/* Main container styling */
 .container {
   position: relative;
-
-
 }
 
+/* Positioning for text block */
 .text-block {
   margin: auto;
   width: 100%;
@@ -19,16 +31,19 @@
   padding-right: 20px;
 }
 
+/* Styling for h2 header */
 h2 {
   font-family: 'Caveat', Arial, Helvetica, sans-serif;
   font-size: 52px;
 }
 
+/* STyling for paragraph */
 p {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
+/* Styling for the button */
 button {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -36,6 +51,7 @@ button {
   color: black;
 }
 
+/* Styling for the link */
 a {
   font-family: 'Caveat', Arial, Helvetica, sans-serif;
   font-size: 16px;
